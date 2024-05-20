@@ -1,0 +1,36 @@
+{
+  "name": "ncovid",
+  "version": "1.0.0",
+  "description": "API for infomation about covid",
+  "author": "Dicom",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start 'npm run start' --name 'dicom-universal-api' --time"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.391.0",
+    "@aws-sdk/lib-storage": "^3.121.0",
+    "aws-sdk": "^2.1461.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.0",
+    "luxon": "^3.4.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7",
+    "react-icons": "^4.10.1",
+    "slugify": "^1.6.5",
+    "socket.io": "^4.7.2"
+  }
+}
